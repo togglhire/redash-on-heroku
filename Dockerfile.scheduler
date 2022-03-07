@@ -1,2 +1,2 @@
 FROM redash/redash:10.1.0.b50633
-CMD /app/manage.py rq worker
+CMD /app/manage.py rq scheduler
